@@ -117,12 +117,12 @@ background-color:  #ffffff;
 }
 
 .scrollbar{
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
 
 .scrollbarR{
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
 .mobileonly{
@@ -154,7 +154,7 @@ background-color:  #ffffff;
 
 
 .nav-pills > li > a.active {
-  background-color: #5b62436f !important;
+  background-color: rgba(209, 204, 200, 0.413) !important;
 }
 
 .buttonGr {
@@ -209,6 +209,6 @@ background-color:  #ffffff;
   min-height: 300px;
   height: 300px;
   max-height: 300px;
-  border-radius: 7px;
+  border-radius: 0px;
 
 }
