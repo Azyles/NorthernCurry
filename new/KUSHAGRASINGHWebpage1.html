@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>KUSHAGRA SINGH Webpage</title>
+</head>
+
+<body bgcolor="#00ff00">
+    <h1>A Sampling of Elements on a Web Page</h1>
+    <h2>I am a level 2 heading notice the font size difference </h2>
+    <h3>Web Page created by Kushagra Singh</h3>
+    <h4>7/16/2022</h4>
+    <h4>CIS50</h4>
+    <h4>Instructor: DJFields </h4>
+    <p> I am a paragraph. The p in brackets <> indicates a paragraph tag.
+            You can press ENTER at any time in your document, but HTML ignores
+            the new blank line that an ENTER would create in a normal word
+            processing document.
+            <p>Only another paragraph tag will skip a line and start a new
+                paragraph. As with heading text, paragraph tex looks different
+                from browser to browser. Typically, paragraphs are not indented,
+                and a single blank line is inserted between them.
+            <p>LIST Tags: HTML defines three types of lists to help you organize your
+                Web Page information.
+                The more effectively you use lists, the easier it is
+                for a reader to scan your Web Page.
+            <ol>The three different types of lists include;
+                <li>ordered list usually numbered
+                <li>unordered list ususally with bullets
+                <li>definition list usually as two parts: the word and its meaning
+            </ol>
+            <p>LINK Tags: The easiest way to travel is not by plane, train, or car
+                It is by link. A link is a word, phrase, or graphic that links the current
+                document to another location withing the same web page on another computer
+                or to another location within the same Web page.
+                Links give the Web its
+                dynamic character and appeal. They are visually distinct elements (also
+                known as hotspots) that are colored and/or underlined. You have already
+                explored many Web pages containing links. Here is an example on how to code
+                them.
+            <p><a href="http://www.laspositascollege.edu" target=_blank>Link to LPC Home Page</a>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>
