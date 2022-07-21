@@ -162,15 +162,15 @@ background-color:  #ffffff;
     visibility: visible;
   }
   .Detail{
-    font-size: 2vmin;
+    font-size: 2.5vmin;
   }
 
   .DishName{
-    font-size: 3.3vmin;
+    font-size: 3.7vmin;
   }
 
   .Price{
-    font-size: 2.5vmin;
+    font-size: 2.8vmin;
   }
 
 }
