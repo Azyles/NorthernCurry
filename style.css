@@ -127,6 +127,19 @@ background-color:  #ffffff;
   visibility: hidden;
 }
 
+.Detail{
+  color: rgb(127, 127, 127);font-weight: 300; font-family:  'Kumbh Sans', sans-serif;font-size: 1.3vmin;
+}
+
+.DishName{
+  color: #000; font-family: 'Branch';font-size: 2vmin;
+}
+
+
+.Price{
+  color: #000; font-family:  'Branch';font-size: 1.4vmin;
+}
+
 @media screen and (max-width:767px){
   .notMobile{
      display:none;
@@ -148,6 +161,18 @@ background-color:  #ffffff;
   .mobileonly{
     visibility: visible;
   }
+  .Detail{
+    font-size: 2vmin;
+  }
+
+  .DishName{
+    font-size: 3.3vmin;
+  }
+
+  .Price{
+    font-size: 2.5vmin;
+  }
+
 }
 
 
