@@ -175,7 +175,9 @@ background-color:  #ffffff;
 
 }
 
-
+.nav-pills > li > a{
+  font-size: 1.5vmin;
+}
 .nav-pills > li > a.active {
   background-color: rgba(209, 204, 200, 0.413) !important;
 }
