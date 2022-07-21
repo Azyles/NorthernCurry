@@ -140,6 +140,11 @@ background-color:  #ffffff;
   color: #000; font-family:  'Branch';font-size: 1.4vmin;
 }
 
+
+.nav-pills > li > a{
+  font-size: 1.5vmin;
+}
+
 @media screen and (max-width:767px){
   .notMobile{
      display:none;
@@ -172,12 +177,12 @@ background-color:  #ffffff;
   .Price{
     font-size: 3.2vmin;
   }
-
+  .nav-pills > li > a{
+    font-size: 2.5vmin;
+  }
 }
 
-.nav-pills > li > a{
-  font-size: 1.5vmin;
-}
+
 .nav-pills > li > a.active {
   background-color: rgba(209, 204, 200, 0.413) !important;
 }
